@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    background-color: #fff;
+    box-sizing: 0px -1px 3px 5px #fff;
+    width: 340px;
+    padding: 10px;
+    height: 500px;
+    border-radius: 30px;
+    margin: 40px auto;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.container .header{
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.container .loadingBar{
+    border-radius: 3px;
+    padding: 3px 0;
+    width: 0%;
+    height: 2px;
+    background-color: lightgreen;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.container .loadingBar.incLoadingBar{
+    width: 100%;
+    transition: 60s;
+    -webkit-transition: 60s;
+    -moz-transition: 60s;
+    -ms-transition: 60s;
+    -o-transition: 60s;
+}
+
+.timeSec{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.frontPage{
+    height: auto;
+    width: 100%;
+}
+
+.frontPage .rules{
+    width: 100%;
+    padding: 20px 0 20px 20px;
+}
+
+.frontPage .rules ol li{
+    margin-top: 10px;
+}
+
+.frontPage .rules .rulsButton{
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.frontPage .rules h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.frontPage .rules .rulsButton button{
+    padding: 5px 10px;
+    border: 1px solid lightcoral;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.frontPage .frontGameBtn{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+    transition: 0.8s linear;
+    -webkit-transition: 0.8s linear;
+    -moz-transition: 0.8s linear;
+    -ms-transition: 0.8s linear;
+    -o-transition: 0.8s linear;
+}
+
+.frontGameBtn button{
+    background-color: lightgreen;
+    padding: 7px 15px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+/* quiz question css  */
+
+.quizSection{
+    padding: 20px 10px;
+    width: 100%;
+    display: none;
+}
+
+.quizSection .singleQuiz{
+    width: 95%;
+    margin: 28px auto;
+}
+
+.singleQuiz .quizQus{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.quizOption .singleOption{
+    padding: 0 0 0 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.quizSecButtons{
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quizSecButtons button{
+    background-color: lightgreen;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+/* quiz question css  */
