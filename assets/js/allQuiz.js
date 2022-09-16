@@ -27,7 +27,7 @@ const quizArr = [
         Option3 : 'Thomas Kurtz',
         Option4 : 'Hyper Transfer Protocol',
         Option1 : 'Bill Gates',
-        // RightOption : Option1
+        RightAnswer : 'Dennis Ritchie',
     },
     {
         id: 4,
