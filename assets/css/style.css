@@ -53,10 +53,11 @@ body{
 }
 
 .timeSec{
+    display: none;
     margin-top: 20px;
     width: 100%;
     text-align: center;
-    display: block;
+    /* display: block; */
 }
 
 .frontPage{
@@ -143,10 +144,39 @@ body{
     justify-content: space-around;
 }
 
-.quizSecButtons button{
+.quizSecButtons button, form button{
     background-color: lightgreen;
     cursor: pointer;
     padding: 8px 15px;
 }
 
+.rightAns b{
+    color: green;
+}
+
 /* quiz question css  */
+
+.quizScoreSec{
+    display: none;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.quizScoreSec p{
+    font-size: 20px;
+}
+
+.quizScoreSec #score{
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.quizScoreSec button{
+    background-color: coral;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 130px;
+    margin: 30px auto;
+}

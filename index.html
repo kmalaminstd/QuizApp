@@ -13,10 +13,7 @@
         <div class="header">
             <h1>Quiz App</h1>
         </div>
-        <div class="loadingBar">
-
-        </div>
-
+        
         <div class="timeSec">
             <p><span class="min">00</span>:<span class="sec">00</span></p>
         </div>
@@ -28,9 +25,11 @@
                     <li>You have to answer in 60 seconds</li>
                     <li>You will get 1 marks for every correct answer</li>
                     <li>There will be 15 questions. You will get 15 minute to complete the quiz.</li>
+                    <li>You can submit a anser for one time.</li>
+                    <li>Once you click next you can not get back previous question.</li>
                 </ol>
                 <div class="rulsButton">
-                    <button>OK</button>
+                    <button>I Understand</button>
                 </div>
             </div>
             <div class="frontGameBtn">
@@ -40,38 +39,31 @@
 
         <div class="quizSection">
 
-            <!-- <div class="singleQuiz">
-                <div class="quizQus">
-                    <P><Span>1</Span>. What is the full form of HTTP?</P>
-                </div>
-                <div class="quizOption">
-                    <div class="singleOption">
-                        <input type="radio" value="http1" class="op1" id="op1">
-                        <label for="fOp">Hyper Markup Protocoll</label>
-                    </div>
-    
-                    <div class="singleOption">
-                        <input type="radio" value="http2" class="op2" id="op2">
-                        <label for="fOp">Hyper Markup Protocoll</label>
-                    </div>
-    
-                    <div class="singleOption">
-                        <input type="radio" value="http3" class="op3" id="op3">
-                        <label for="fOp">Hyper Markup Protocoll</label>
-                    </div>
-    
-                    <div class="singleOption">
-                        <input type="radio" value="http4" class="op4" id="op4">
-                        <label for="fOp">Hyper Markup Protocoll</label>
-                    </div>
-                </div>
-            </div> -->
+            <form action="">
 
-            <!-- <div class="quizSecButtons">
+            </form>
+
+            
+
+            <div class="rightAns">
+                <p></p>
+            </div>
+
+            <div class="quizSecButtons">
                 <button class="skipBtn">Skip</button>
-                <button class="nextBtn">Next</button>
-            </div> -->
+                
+            </div>
 
+        </div>
+
+
+        <!-- quiz score section -->
+
+        <div class="quizScoreSec">
+            <p>Your Score is : </p>
+            <p id="score"></p>
+
+            <button>Try Again</button>
         </div>
 
 
